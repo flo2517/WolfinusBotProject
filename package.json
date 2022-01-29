@@ -1,0 +1,19 @@
+{
+  "name": "wolfinusBotProject",
+  "version": "1.0.0",
+  "description": "a bot discord",
+  "main": "index.js",
+  "author": "Thrall",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  }
+}
